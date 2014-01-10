@@ -1,0 +1,11 @@
+NDK_ROOT = /cygdrive/d/program-install/develop/android/adt-bundle-windows-x86_64-20130917/android-ndk-r9/
+COCOS2DX_ROOT = /cygdrive/d/other-project/work/bb10/bb10_ndk_dev/cocos2d-2.1beta3-x-2.1.0/directfire/trunk/project.android/DirectFire/proj.android/../../../../../
+APP_ROOT = /cygdrive/d/other-project/work/bb10/bb10_ndk_dev/cocos2d-2.1beta3-x-2.1.0/directfire/trunk/project.android/DirectFire/proj.android/..
+APP_ANDROID_ROOT = /cygdrive/d/other-project/work/bb10/bb10_ndk_dev/cocos2d-2.1beta3-x-2.1.0/directfire/trunk/project.android/DirectFire/proj.android
+Using prebuilt externals
+Android NDK: /cygdrive/d/other-project/work/bb10/bb10_ndk_dev/cocos2d-2.1beta3-x-2.1.0/directfire/trunk/project.android/DirectFire/proj.android/../../../../..//directfire/trunk/common/Android.mk: Cannot find module with tag 'libcrypto' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+make: 进入目录“/cygdrive/d/other-project/work/bb10/bb10_ndk_dev/cocos2d-2.1beta3-x-2.1.0/directfire/trunk/project.android/DirectFire/proj.android”
+make: 离开目录“/cygdrive/d/other-project/work/bb10/bb10_ndk_dev/cocos2d-2.1beta3-x-2.1.0/directfire/trunk/project.android/DirectFire/proj.android”

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DirectFire</string>
+    <string name="cancel">Cancel</string>
+    <string name="camera">From Camera</string>
+    <string name="album">From Album</string>
+    <string name="takephoto">TakePhoto</string>
+</resources>

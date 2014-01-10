@@ -1,0 +1,26 @@
+uilib 编程介绍：
+
+uilib设计借鉴了 qml的方法,如果想学习的话，可以找qml的资料查看
+uilib的布局管理没有生成类似语法树的东西，而是采用一层一层布局的方
+法，这似乎对手机上来说足够了！
+uilib提供绝大多数的控件支持包括：
+水平布局
+垂直布局
+按钮
+标签
+对话框
+消息框
+聊天框
+聊天表情支持
+
+如果你想看有那些控件支持也可以下载游戏先进行查看
+IOS：Direct-Fire
+Android play: DirectFire
+Sanmsung: DirectFire
+Blackberry: DirectFire
+
+因为（xx部们1xxx万的原因)，无法在xxxxx部署服务器，敬请谅解！
+
+这是第一个开放的版本，错误难免，敬请指正。
+如果有什么错误，或者修改建议（联系信箱，zhwsh00@126.com)
+作者会长期把uilib做下去，为大家解决ui设计困难的问题

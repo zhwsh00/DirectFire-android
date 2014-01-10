@@ -1,0 +1,33 @@
+#! /bin/sh
+# need modify configure and delete -Wall 
+
+build_arch_i386()
+{
+  export CPPFLAGS='-arch i386'
+  export LDFLAGS='-arch i386'
+  #export CFLAGS='-arch i386'
+  ./configure
+  make clean
+  make
+  mkdir -p staticlib-mac/i386
+  cp src/.libs/libmsgpack.a staticlib-mac/i386
+}
+
+build_arch_x86_64()
+{
+  export CPPFLAGS='-arch x86_64'
+  export LDFLAGS='-arch x86_64'
+  export CFLAGS='-arch x86_64'
+  ./configure
+  make clean
+  make
+  mkdir -p staticlib-mac/x86_64
+  cp src/.libs/libmsgpack.a staticlib-mac/x86_64
+}
+
+build_arch_i386
+build_arch_x86_64
+
+#create fat lib
+cd ./staticlib-mac
+lipo -arch i386 i386/libmsgpack.a -arch x86_64 x86_64/libmsgpack.a -create -output libmsgpack.a

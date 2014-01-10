@@ -1,0 +1,34 @@
+This build only for android platform!
+1: clone cocos2d-2.1beta3-x-2.1.0(There are some little change,if you want use offical version,than you can according
+build error to add some interface,and the cocos2d-2.1beta3 is the only version has beeen tested)
+2: clone directfire_githun,put under directory of cocos2d-2.1beta3-x-2.1.0
+3: cd directfire_github/trunk/project.android/DirectFire/proj.android
+4: check build envirorment and run build_native.sh
+5: open eclipse to generate apk
+
+CopyRight: 
+sourcecode:MIT
+artwork:Commercial
+
+support mail: support@kommonsoft.com
+Author QQ: 29205426
+Directfire facebook: https://www.facebook.com/profile.php?id=100007274735836
+Directfire twitter: https://twitter.com/wonegamer
+there is a support QQ chat group: 40333975
+
+Directfire aimed to build a mobile battle.net platform with real interative game support!
+
+We also offer all social,network support,If you are interested in this,and You want
+develop your own battle game,please contact us.
+
+readme_eng.txt: Introduction of uilib in english
+reame_cn.txt: Introduction of uilib in chinese
+resource.txt: Introduction of artwork used.
+
+Support platform:
+IOS
+Android
+Blackberry
+
+
+
