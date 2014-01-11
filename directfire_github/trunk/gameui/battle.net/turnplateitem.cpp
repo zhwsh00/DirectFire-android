@@ -81,8 +81,6 @@ void TurnPlateItem::onFrameClicked(CCNode *node,void *data)
         std::string goldName;
         PropDef::getVirtualPropsName(PropDef::Props_Gold,goldName);
         goldName += ".png";
-        std::string &id = m_serverIface->getLoginAccountInfo()->m_id;
-        int num = m_serverIface->getPropNumByUid(id,PropDef::Props_Gold);
         m_turnDialog->setGlodInfo(goldName,num);
     }
     m_turnDialog->exec();
