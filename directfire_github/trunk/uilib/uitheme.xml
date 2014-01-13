@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<Setting version="1.0" corp="kommonsoft" date="2013/1/26">
+	<resources>
+		<borderimg.plist>borderimg.png</borderimg.plist>
+		<uibg.plist>uibg.png</uibg.plist>
+		<uiroom.plist>uiroom.png</uiroom.plist>
+		<socialspell.plist>socialspell.png</socialspell.plist>
+		<uigame.plist>uigame.png</uigame.plist>
+		<spellwink.plist>spellwink.png</spellwink.plist>
+		<uishooter.plist>uishooter.png</uishooter.plist>
+		<movespell.plist>movespell.png</movespell.plist>
+	</resources>
+	<tdnum>20</tdnum>
+	<shooter>
+		<human>
+			<pos x="77" y="25"></pos>
+			<pos x="77" y="80"></pos>
+			<pos x="77" y="116"></pos>
+			<pos x="77" y="130"></pos>
+		</human>
+		<dragon>
+			<pos x="76" y="0"></pos>
+			<pos x="76" y="88"></pos>
+			<pos x="76" y="129"></pos>
+			<pos x="76" y="130"></pos>
+		</dragon>
+		<orc>
+			<pos x="87" y="0"></pos>
+			<pos x="87" y="92"></pos>
+			<pos x="87" y="126"></pos>
+			<pos x="87" y="140"></pos>
+		</orc>
+		<undead>
+			<pos x="87" y="0"></pos>
+			<pos x="87" y="94"></pos>
+			<pos x="87" y="130"></pos>
+		</undead>
+		<nightelf>
+			<pos x="67" y="50"></pos>
+			<pos x="67" y="93"></pos>
+			<pos x="67" y="130"></pos>
+		</nightelf>
+	</shooter>
+	<uieffect>
+		<effect>yellowgate</effect>
+		<effect>redgate</effect>
+		<effect>greengate</effect>
+		<effect>purplegate</effect>
+		<effect>blackgate</effect>
+		<effect>sheepface1</effect>
+		<effect>sheepface2</effect>
+		<effect>cct1</effect>
+		<effect>cct2</effect>
+		<effect>cct3</effect>
+		<effect>cct4</effect>
+		<effect>cct5</effect>
+		<effect>cct6</effect>
+		<effect>cct7</effect>
+		<effect>cct8</effect>
+		<effect>cct9</effect>
+		<effect>cct10</effect>
+		<effect>propselect</effect>
+		<effect>spellposing</effect>
+		<effect>stormwink</effect>
+		<effect>icearrowwink</effect>
+		<effect>magicdispelwink</effect>
+		<effect>warfogwink</effect>
+		<effect>magicforbidwink</effect>
+		<effect>warcallwink</effect>
+		<effect>oathlightwink</effect>
+		<effect>blackholewink</effect>
+		<effect>thunderballwink</effect>
+		<effect>wormballwink</effect>
+		<effect>cyclonewink</effect>
+		<effect>wartramplingwink</effect>
+		<effect>silencewink</effect>
+		<effect>dragonbeadwink</effect>
+		<effect>ballbase</effect>
+		<effect>flybird</effect>
+		<effect>onebird</effect>
+		<effect>startposeff</effect>
+		<effect>praiseuser</effect>
+		<effect>sneeruser</effect>
+		<effect>levelup</effect>
+		<effect>electric</effect>
+		<effect>electricdead</effect>
+		<effect>colddead</effect>
+		<effect>burning</effect>
+		<effect>normaldead</effect>
+	</uieffect>
+	<shop>
+		<shop1 id="1000001">1.99</shop1>
+		<shop2 id="1000002">2.99</shop2>
+		<shop3 id="1000003">5.99</shop3>
+		<shop4 id="1000004">9.99</shop4>
+		<shop5 id="1000005">12.99</shop5>
+		<shop6 id="1000006">16.99</shop6>
+	</shop>
+	<theme name="default">
+		<patternbg>
+			<lt>patternbglt.png</lt>
+			<top>patternbgtop.png</top>
+			<rt>patternbgrt.png</rt>
+			<left>patternbgleft.png</left>
+			<center>patternbgcenter.png</center>
+			<right>patternbgright.png</right>
+			<lb>patternbglb.png</lb>
+			<bottom>patternbgbottom.png</bottom>
+			<rb>patternbgrb.png</rb>
+		</patternbg>
+		<dialog>
+			<lt>dialogbglt.png</lt>
+			<top>dialogbgtop.png</top>
+			<rt>dialogbgrt.png</rt>
+			<left>dialogbgleft.png</left>
+			<center>dialogbgcenter.png</center>
+			<right>dialogbgright.png</right>
+			<lb>dialogbglb.png</lb>
+			<bottom>dialogbgbottom.png</bottom>
+			<rb>dialogbgrb.png</rb>
+		</dialog>
+		<inputbg>
+			<lt>inputbglt.png</lt>
+			<top>inputbgtop.png</top>
+			<rt>inputbgrt.png</rt>
+			<left>inputbgleft.png</left>
+			<center>inputbgcenter.png</center>
+			<right>inputbgright.png</right>
+			<lb>inputbglb.png</lb>
+			<bottom>inputbgbottom.png</bottom>
+			<rb>inputbgrb.png</rb>
+		</inputbg>
+		<roomb2>
+			<lt>roomb2lt.png</lt>
+			<top>roomb2top.png</top>
+			<rt>roomb2rt.png</rt>
+			<left>roomb2left.png</left>
+			<center>roomb2center.png</center>
+			<right>roomb2right.png</right>
+			<lb>roomb2lb.png</lb>
+			<bottom>roomb2bottom.png</bottom>
+			<rb>roomb2rb.png</rb>
+		</roomb2>
+		<roomb1>
+			<lt>roomb1lt.png</lt>
+			<top>roomb1top.png</top>
+			<rt>roomb1rt.png</rt>
+			<left>roomb1left.png</left>
+			<center>roomb1center.png</center>
+			<right>roomb1right.png</right>
+			<lb>roomb1lb.png</lb>
+			<bottom>roomb1bottom.png</bottom>
+			<rb>roomb1rb.png</rb>
+		</roomb1>
+		<propbg>
+			<lt>propbglt.png</lt>
+			<top>propbgtop.png</top>
+			<rt>propbgrt.png</rt>
+			<left>propbgleft.png</left>
+			<center>propbgcenter.png</center>
+			<right>propbgright.png</right>
+			<lb>propbglb.png</lb>
+			<bottom>propbgbottom.png</bottom>
+			<rb>propbgrb.png</rb>
+		</propbg>
+		<putonbg>
+			<lt>putonbglt.png</lt>
+			<top>putonbgtop.png</top>
+			<rt>putonbgrt.png</rt>
+			<left>putonbgleft.png</left>
+			<center>putonbgcenter.png</center>
+			<right>putonbgright.png</right>
+			<lb>putonbglb.png</lb>
+			<bottom>putonbgbottom.png</bottom>
+			<rb>putonbgrb.png</rb>
+		</putonbg>
+		<button>
+			<lt>buttonlt.png</lt>
+			<top>buttontop.png</top>
+			<rt>buttonrt.png</rt>
+			<left>buttonleft.png</left>
+			<center>buttoncenter.png</center>
+			<right>buttonright.png</right>
+			<lb>buttonlb.png</lb>
+			<bottom>buttonbottom.png</bottom>
+			<rb>buttonrb.png</rb>
+		</button>
+		<buttongreen>
+			<lt>buttongreenlt.png</lt>
+			<top>buttongreentop.png</top>
+			<rt>buttongreenrt.png</rt>
+			<left>buttongreenleft.png</left>
+			<center>buttongreencenter.png</center>
+			<right>buttongreenright.png</right>
+			<lb>buttongreenlb.png</lb>
+			<bottom>buttongreenbottom.png</bottom>
+			<rb>buttongreenrb.png</rb>
+		</buttongreen>
+		<buttonred>
+			<lt>buttonredlt.png</lt>
+			<top>buttonredtop.png</top>
+			<rt>buttonredrt.png</rt>
+			<left>buttonredleft.png</left>
+			<center>buttonredcenter.png</center>
+			<right>buttonredright.png</right>
+			<lb>buttonredlb.png</lb>
+			<bottom>buttonredbottom.png</bottom>
+			<rb>buttonredrb.png</rb>
+		</buttonred>
+		<facing>
+			<face>cct1</face>
+			<face>cct2</face>
+			<face>cct3</face>
+			<face>cct4</face>
+			<face>cct5</face>
+			<face>cct6</face>
+			<face>cct7</face>
+			<face>cct8</face>
+			<face>cct9</face>
+			<face>cct10</face>
+			<face>cct11</face>
+		</facing>
+		<phrase>
+			<p>How are you?</p>
+			<p>Quick,Quick!</p>
+			<p>What your name?</p>
+			<p>Too slow!</p>
+			<p>Where you come from?</p>
+			<p>You Great!</p>
+			<p>You Suck!</p>
+			<p>Go...Go...</p>
+		</phrase>
+		<others>
+			<battlein>gametypebg.png</battlein>
+			<quickin>gametypebg.png</quickin>
+			<endlessin>gametypebg.png</endlessin>
+			<titlebuttonbg>titlebuttonbg.png</titlebuttonbg>
+			<buttonbg>buttonbg_normal.png</buttonbg>
+			<buttonbg_red>buttonbg_red.png</buttonbg_red>
+			<buttonbg_green>buttonbg_green.png</buttonbg_green>
+			<dfmode>dfmode.png</dfmode>
+			<towermode>towermode.png</towermode>
+			<sendbutton>sendbutton.png</sendbutton>
+			<hallicon>hallicon.png</hallicon>
+			<gameicon>gameicon.png</gameicon>
+			<shopicon>shopicon.png</shopicon>
+			<friendicon>friendicon.png</friendicon>
+			<herosicon>herosicon.png</herosicon>
+			<sysicon>sysicon.png</sysicon>
+			<vscrollbg>vscrollbarbg.png</vscrollbg>
+			<vscrollbghead>vscrollbarbg_head.png</vscrollbghead>
+			<vscrollbgtail>vscrollbarbg_tail.png</vscrollbgtail>
+			<vscrollindicator>vscrollbarindicator.png</vscrollindicator>
+			<hscrollbg>hscrollbarbg.png</hscrollbg>
+			<hscrollbghead>hscrollbarbg_head.png</hscrollbghead>
+			<hscrollbgtail>hscrollbarbg_tail.png</hscrollbgtail>
+			<hscrollindicator>hscrollbarindicator.png</hscrollindicator>
+			<labelbg>labelbg160x80.png</labelbg>
+			<checkboxchecked>checkbox80x80_checked.png</checkboxchecked>
+			<checkboxuncheck>checkbox80x80_uncheck.png</checkboxuncheck>
+			<dialogtitle_a>titlea200x80.png</dialogtitle_a>
+			<uimainsetting>ui_mainsetting.png</uimainsetting>
+			<uimainback>ui_mainreturnback.png</uimainback>
+			<uigiftyes>gift_yes.png</uigiftyes>
+			<uimailsending>mailsending.png</uimailsending>
+			<uigiftsending>giftsending.png</uigiftsending>
+			<uimailyes>mail_yes.png</uimailyes>
+			<uitaskyes>task_yes.png</uitaskyes>
+			<uifriendaddyes>friendadd_yes.png</uifriendaddyes>
+			<uileftback>ui_leftback.png</uileftback>
+			<uirightback>ui_rightback.png</uirightback>
+			<uidecrease>ui_decrease.png</uidecrease>
+			<uiincrease>ui_increase.png</uiincrease>
+			<uiexit>ui_exit.png</uiexit>
+			<uifinish>ui_finish.png</uifinish>
+			<uiline>ui_line.png</uiline>
+			<uiloading>ui_loading.png</uiloading>
+			<uirefresh>ui_refresh.png</uirefresh>
+			<refresh>refresh.png</refresh>
+			<uiselectoff>ui_select_off.png</uiselectoff>
+			<uiselecton>ui_select_on.png</uiselecton>
+			<uisettings>ui_settings.png</uisettings>
+			<uistop>ui_stop.png</uistop>
+			<uiloadinga>uiloadinga</uiloadinga>
+			<uiaddfriend>ui_addfriend.png</uiaddfriend>
+			<uieffectfirea>uieffectfire</uieffectfirea>
+			<tabhightlighter>hightlighter100x100.png</tabhightlighter>
+			<circleprogbarbg>circleprogressbg.png</circleprogbarbg>
+			<circleprogbarfg_a>circleprogressfg1.png</circleprogbarfg_a>
+			<hbarcolorbg>hbarcolorbg.png</hbarcolorbg>
+			<hbarcolorbghead>hbarcolorbghead.png</hbarcolorbghead>
+			<hbarcolorbgtail>hbarcolorbgtail.png</hbarcolorbgtail>
+			<blackhbar>blackhbar.png</blackhbar>
+			<blackhbarhead>blackhbarhead.png</blackhbarhead>
+			<blackhbartail>blackhbartail.png</blackhbartail>
+			<bluehbar>bluebar.png</bluehbar>
+			<bluehbarhead>bluebarhead.png</bluehbarhead>
+			<bluehbartail>bluebartail.png</bluehbartail>
+			<redhbar>redhbar.png</redhbar>
+			<redhbarhead>redhbarhead.png</redhbarhead>
+			<redhbartail>redhbartail.png</redhbartail>
+			<grayhbar>grayhbar.png</grayhbar>
+			<grayhbarhead>grayhbarhead.png</grayhbarhead>
+			<grayhbartail>grayhbartail.png</grayhbartail>
+			<greenhbar>greenhbar.png</greenhbar>
+			<greenhbarhead>greenhbarhead.png</greenhbarhead>
+			<greenhbartail>greenhbartail.png</greenhbartail>
+			<opinkhbar>opinkhbar.png</opinkhbar>
+			<opinkhbarhead>opinkhbarhead.png</opinkhbarhead>
+			<opinkhbartail>opinkhbartail.png</opinkhbartail>
+			<oredhbar>oredhbar.png</oredhbar>
+			<d3dredhbar>d3dredhbar.png</d3dredhbar>
+			<d3dredhbarhead>d3dredhbarhead.png</d3dredhbarhead>
+			<d3dredhbartail>d3dredhbartail.png</d3dredhbartail>
+			<oredhbarhead>oredhbarhead.png</oredhbarhead>
+			<oredhbartail>oredhbartail.png</oredhbartail>
+			<goldenhbar>goldenhbar.png</goldenhbar>
+			<goldenhbarhead>goldenhbarhead.png</goldenhbarhead>
+			<goldenhbartail>goldenhbartail.png</goldenhbartail>
+			<roundedhbarbg>roundedhbarbg.png</roundedhbarbg>
+			<roundedhbarbghead>roundedhbarbghead.png</roundedhbarbghead>
+			<roundedhbarbgtail>roundedhbarbgtail.png</roundedhbarbgtail>
+			<portraitbg>headbg.png</portraitbg>
+			<portraitdefault>headdefault.png</portraitdefault>
+			<portraitgirl>headgirl.png</portraitgirl>
+			<portraitboy>headgirl.png</portraitboy>
+			<playerol>player_online.png</playerol>
+			<quickgame>quickgame.png</quickgame>
+			<createroom>createroom.png</createroom>
+			<mapabbrev>mapabbrev.png</mapabbrev>
+			<mapname>mapname.png</mapname>
+			<roomnum>roomnum.png</roomnum>
+			<costgolden>costgolden.png</costgolden>
+			<playernum>playernum.png</playernum>
+			<thumb>thumb.png</thumb>
+			<thumbstart>ui_refresh.png</thumbstart>
+			<thumbsubmit>ui_confirm.png</thumbsubmit>
+			<thumbbutton>thumbbutton.png</thumbbutton>
+			<footbutton>footbutton.png</footbutton>
+			<foot>foot.png</foot>
+			<righthand>righthand.png</righthand>
+			<lefthand>lefthand.png</lefthand>
+			<star2>star2.png</star2>
+			<star3>star3.png</star3>
+			<star4>star4.png</star4>
+			<star5>star5.png</star5>
+			<horetc>horetc.png</horetc>
+			<veretc>veretc.png</veretc>
+			<!--chat related -->
+			<chatface>chatface.png</chatface>
+			<chatuparrow>chatuparrow.png</chatuparrow>
+			<chatto>chatto.png</chatto>
+			<facebg>facebg.png</facebg>
+			<!-- turn plated related -->
+			<turnplate_inc>turnplate_inc.png</turnplate_inc>
+			<turnplate_dec>turnplate_dec.png</turnplate_dec>
+			<!--room related -->
+			<arrowdown>arrowdown.png</arrowdown>
+			<arrowup>arrowup.png</arrowup>
+			<arrowleft>arrowleft.png</arrowleft>
+			<arrowright>arrowright.png</arrowright>
+			<flag0>flag0.png</flag0>
+			<flag1>flag1.png</flag1>
+			<flag2>flag2.png</flag2>
+			<flag3>flag3.png</flag3>
+			<flag4>flag4.png</flag4>
+			<flagself>flagself.png</flagself>
+			<hostsign>hostsign.png</hostsign>
+			<invalidtable>invalidtable.png</invalidtable>
+			<nulltable>nulltable.png</nulltable>
+			<table>table.png</table>
+			<spellsetting>spellsetting.png</spellsetting>
+			<spelladd>spelladd.png</spelladd>
+			<spelldel>spelldel.png</spelldel>
+			<spellnum>spellnum.png</spellnum>
+			<!--game page related-->
+			<sortmapname>sortmapname.png</sortmapname>
+			<sortplayernum>sortplayernum.png</sortplayernum>
+			<!--room related -->
+			<human>human.png</human>
+			<orc>orc.png</orc>
+			<undead>undead.png</undead>
+			<dragon>dragon.png</dragon>
+			<nightelf>nightelf.png</nightelf>
+			<rtribe>rtribe.png</rtribe>
+			<!--shop related -->
+			<shop1>shop1.png</shop1>
+			<shop2>shop2.png</shop2>
+			<shop3>shop3.png</shop3>
+			<shop4>shop4.png</shop4>
+			<shop5>shop5.png</shop5>
+			<shop6>shop6.png</shop6>
+			<propex>propex.png</propex>
+			<propsyn>propsyn.png</propsyn>
+			<coin2gold>coin2gold.png</coin2gold>
+			<prop2gold>prop2gold.png</prop2gold>
+			<!--heros related -->
+			<herolevel>herolevel.png</herolevel>
+			<heroplayed>heroplayed.png</heroplayed>
+			<herocoin>herocoin.png</herocoin>
+			<herowin>herowin.png</herowin>
+			<herolose>herolose.png</herolose>
+			<losesign>losesign.png</losesign>invalidtable
+			<playedsign>playedsign.png</playedsign>
+			<wonsign>wonsign.png</wonsign>
+			<!-- sys related -->
+			<facebook>facebook.png</facebook>
+			<twitter>twitter.png</twitter>
+			<sina>sina.png</sina>
+			<sys_back>ui_leftback.png</sys_back>
+			<!--game related -->
+			<hideprop>hidepropbar.png</hideprop>
+			<propcancel>propcancel.png</propcancel>
+			<propcancel_disabled>propcancel_disabled.png</propcancel_disabled>
+			<propcancel_pressed>propcancel_pressed.png</propcancel_pressed>
+			<propquitgame>propquitgame.png</propquitgame>
+			<scrshot>ssshot.png</scrshot>
+		</others>
+	</theme>
+</Setting>
