@@ -59,7 +59,11 @@ public:
     virtual void doAnimationWhenKeyboardMove(float duration, float distance);
     virtual void openKeyboard();
     virtual void closeKeyboard();
-    
+     /**
+     * KM added
+     */
+    virtual void setVisible(bool isVisible);
+    virtual void setEnabled(bool enabled);
 private:
     CCLabelTTF* m_pLabel;
     CCLabelTTF* m_pLabelPlaceHolder;

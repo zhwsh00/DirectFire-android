@@ -233,6 +233,14 @@ void CCEditBoxImplAndroid::closeKeyboard()
 {
 
 }
-
+ /**
+ * KM added
+ */
+void CCEditBoxImplAndroid::setVisible(bool isVisible)
+{
+}
+void CCEditBoxImplAndroid::setEnabled(bool enabled)
+{
+}
 NS_CC_EXT_END
 
